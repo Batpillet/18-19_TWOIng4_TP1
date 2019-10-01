@@ -7,23 +7,62 @@
 </head>
 <body>
 	<header>
-		<div id="photo">
-			<img src="images/Moi.jpg">	
+		<div id="photo" align="center">
+			<img src="images/Baptiste.jpg">	
+			<h1>Baptiste PILLET</h1>
 		</div>
-		<nav>	
-			<ul>
-				<li><a href="#">Accueil</a></li>
-				<li><a href="#">Mon CV</a></li>	
-				<li><a href="#">A propos</a></li>
-			</ul>
-		</nav>
 	</header>
 	<main>
-		<div id="formulaire">
+			<section align="center">
+				<a href="Index.html" class="b1">Accueil</a>
+				<a href="#" class="b2">Mon CV</a>	
+				<a href="#" class="b3">A propos</a>
+			</section>
+		
+			<section id="profil">
+			<h2>Profil</h2>
+				<p align="justify">Suivant un cursus d’ingénieur à l’ECE Paris, je suis actuellement en Ecosse pour un échange universitaire afin d’en 	découvrir la culture, de m’enrichir personnellement et de développer de nouvelles compétences. Attiré par l’ingénierie numérique, j’ai choisi d’effectuer mon stage précèdent dans une structure ayant mis au point une technologie de communication ultrasonore. Cette première expérience dans le monde de l’entreprise et du numérique fut enrichissante car les nombreux problèmes posés m’ont permis de développer rapidement de nouvelles compétences aussi bien techniques qu’organisationnelles et sociales.
+				</p>	
+			</section>
+			<section id="cv">
+			<div id="gauche">
+				<br>
+				<h2><img height="60" width="60" style="vertical-align:middle; margin-right: 10px;" src="images/formation_logo.png">Formation</h2>
+					<p><h4>2016 - 2021  |  ECE Paris</h4> Ecole d’ingénieur généraliste et informatique.<br> 
+					Date prévue d’obtention du diplôme : 2021</p>
+					<p><h4>2014 – 2016  |  Lycée Janson-de-Sailly</h4>Obtention du baccalauréat STI2D Mention TB. <br>
+					Date d’obtention du Baccalauréat : 2016</p>
+					<h4>2013 – 2014  |  Lycée Jean-Baptiste Say</h4><br>
+				<h2><img height="60" width="60" style="vertical-align:middle; margin-right: 10px;" src="images/competences_logo.png">Competences</h2>
+				<h3>Suite office<div id="of" style="float: left; margin-right: 10px;"class="progress-bar blue"></div></h3>	
+				<h3>C/C++<div id="c" style="float: left; margin-right: 10px;"class="progress-bar blue"></div></h3>	
+				<h3>Arduino<div id="ar" style="float: left; margin-right: 10px;"class="progress-bar blue"></div></h3>
+				<h3>Proteus/Pspice<div id="p" style="float: left; margin-right: 10px;"class="progress-bar blue"></div></h3>
+				<h3>Eagle PCB Design<div id="e" style="float: left; margin-right: 10px;"class="progress-bar blue"></div></h3>
+			</div>
+			<div id="droite">
+				<br>
+				<h2><img height="60" width="60" style="vertical-align:middle; margin-right: 10px;" src="images/experience_logo.png">Experience</h2>
+				<h4>01/2018 - 03/2018  |  Stage Etudiant  |  STIMSHOP</h4> <p align="justify">J’ai effectué mon stage de 2e année du cycle préparatoire ingénieur chez Stimshop, une entreprise qui a mis au point une technologie de communication et de localisation de smartphones grâce aux ultrasons.</p> <br> Mes missions au sein de l’entreprise :
+				<ul> 
+					<li>Assemblage et montage de boîtiers</li>      
+					<li>émetteurs/récepteurs d’ultrasons</li>
+					<li>Conception de cartes électroniques</li>
+					<li>Mesures expérimentales de différentes technologies ultrasonores</li>
+					<li>Etude et amélioration de programmes en langage C permettant l’émission d’ultrasons</li>
+				</ul>
+				<br>
+				<h2><img height="60" width="60" style="vertical-align:middle; margin-right: 10px;" src="images/loisir_logo.png">Loisirs</h2>
+				Tennis, Judo, Escalade en club, Création de musique électronique 
+
+			</div>
+		</section>
+<br><br>
+		<div id="formulaire" align="center">
 			<form>
 				<table>
 					<tr>
-						<td colspan="2" align="center"><h3>Contact</h3></td>
+						<td colspan="2" align="center"><h3>Contactez-moi !</h3></td>
 					</tr>
 					<tr>
 						<td>Nom : </td>
@@ -37,9 +76,16 @@
 						<td>Votre message : </td>
 						<td><textarea rows="5" cols="33">Ecrivez ici...</textarea></td>
 					</tr>
+					<tr>
+						<td><input type="button" value="Envoyer"></td>
+					</tr>
 				</table>
 			</form>
 		</div>
 	</main>
+	<footer>
+		<i class="fab fa-linkedin-in">Linkedin</i> <!--FontAwesome a integrer --> 
+		<i class="fab fa-github">Github</i> 
+	</footer>
 </body>
 </html>
