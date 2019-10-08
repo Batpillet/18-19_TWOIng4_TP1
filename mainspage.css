@@ -53,7 +53,7 @@ h2{
 }
 
 .infos{
-	width: 550px; 
+	width: 500px; 
 	float: right;
 	margin-top: -300px;
 }
@@ -70,21 +70,52 @@ h2{
 	 padding: 20px;
 }
 
+.contour{
+	border: 2px white solid;
+	border-radius: 5px; 
+	width: 250px; 
+	height: 15px; 
+	border-color: #EEAF69; 
+}
+
+.a{
+	background-color: #EEAF69; 
+	width: 150px; 
+	height: 15px; 
+}
+
+.b{
+	background-color: #EEAF69; 
+	width: 200px; 
+	height: 15px; 
+}
+
+.c{
+	background-color: #EEAF69; 
+	width: 130px; 
+	height: 15px; 
+}
+
+.d{
+	background-color: #EEAF69; 
+	width: 110px; 
+	height: 15px; 
+}
+
+.e{
+	background-color: #EEAF69; 
+	width: 150px; 
+	height: 15px; 
+}
+
 #profil
 {
 	margin-left: 20%;
 	margin-right: 20%; 
 	color:#DDB3FC;
+	/*border: thick black solid;*/
 }
 
-#bouttons{
-	border:none;
-	padding:6px 0 6px 0;
-	border-radius:8px;
-	background:#d34836;
-	font:bold 13px Google-Sans;
-	color:#fff;
-}
 
 #video video{
 	margin: 50px;
@@ -99,7 +130,7 @@ a.b
 {
 	opacity: 1; 
 	padding: 10px 30px; 
-	background: #C73E3A;
+	background: #197ADE;
 	color: white; 
 	text-decoration: none; 
 }
@@ -107,159 +138,4 @@ a.b
 a.b:hover
 {
 	 opacity:0.5;
-}
-
-#of { 
-    width: 150px;
-    height: 12px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-#of:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 145px;
-    height: 13px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
-}
-
-#c { 
-    width: 150px;
-    height: 12px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-#c:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 130px;
-    height: 13px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
-}
-
-#ar { 
-    width: 150px;
-    height: 12px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-#ar:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 140px;
-    height: 13px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
-}
-
-#p { 
-    width: 150px;
-    height: 12px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-#p:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100px;
-    height: 13px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
-}
-
-#e { 
-    width: 150px;
-    height: 12px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-#e:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 80px;
-    height: 13px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    background: #099;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
-  background: -moz-linear-gradient(top, #099, #006A6B);
 }
